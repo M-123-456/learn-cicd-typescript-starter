@@ -18,5 +18,11 @@ jobs:
         with:
           node-version: 22
 
-      - name: Print node version
-        run: node --version
+      - name: Install dependencies
+        run: npm i
+
+      - name: Run tests
+        run: npm run test
+      
+      - name: break code
+        run: exit 1

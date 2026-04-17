@@ -22,7 +22,7 @@ jobs:
         run: npm i
 
       - name: Run tests
-        run: npm run test
+        run: npm run test --coverage
 
       - name: Run ci
         run: npm ci

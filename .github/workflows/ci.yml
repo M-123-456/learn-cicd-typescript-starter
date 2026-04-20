@@ -27,5 +27,5 @@ jobs:
       - name: Run ci
         run: npm ci
 
-      - name: Run format check
+      - name: style
         run: npm run format:check
